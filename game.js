@@ -34,6 +34,7 @@ function nextSequence() {
   gamePattern.push(randomChosenColor);
 
   $("#" + randomChosenColor)
+    .fadeIn(100)
     .fadeOut(100)
     .fadeIn(100);
   playSound(randomChosenColor);
